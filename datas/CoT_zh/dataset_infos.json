@@ -1,0 +1,1 @@
+{"default":{"features":{"instruction":{"_type":"Value"},"input":{"_type":"Value"},"output":{"_type":"Value"}},"splits":{"train":{"name":"train","dataset_name":"CoT_zh"}}}}

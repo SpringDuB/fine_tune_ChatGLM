@@ -1,0 +1,14 @@
+python finetune.py \
+    --train_dataset_path data/COT_datasets/train \
+    --test_dataset_path data/COT_datasets/test \
+    --lora_rank 8 \
+    --per_device_train_batch_size 3 \
+    --gradient_accumulation_steps 1 \
+    --max_steps 50000 \
+    --save_steps 2000 \
+    --save_total_limit 2 \
+    --learning_rate 1e-4 \
+    --fp16 \
+    --remove_unused_columns false \
+    --logging_steps 50 \
+    --output_dir running_outputs \
